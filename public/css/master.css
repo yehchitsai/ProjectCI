@@ -1,0 +1,50 @@
+html { min-width: 1000px; }
+body { text-align: center; min-width: 1000px;   background: #eee;}
+
+#wrapper { 
+    width: 1000px;
+    margin: 60px auto;
+    position: relative; 
+    background: #fff;
+    -moz-box-shadow: 1px 1px 5px #999; /* Firefox */
+    -webkit-box-shadow: 1px 1px 5px #999; /* Safari 和 Chrome */
+    box-shadow: 1px 1px 5px #999; /* Opera 10.5 + */
+}
+#header { position: relative; }
+#userName { padding: 12px 0; float: right; }
+#ProTitle { padding: 40px 0; font-size: 3em; }
+
+#content {
+    width: 960px;  
+    padding: 10px;
+}
+
+#footer {}
+#fBack {}
+#fHome {}
+#fOut {}
+#menu{
+    min-height: 60px;
+    position: absolute;
+    top: 20px;
+    right:430px;
+    
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    width: 100px;
+    min-height: 30px;
+}
+#logo
+{
+    width: 250px;
+    height:70px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: -30px;
+    left:20px;
+    background-image: url('/nas/public/css/Img/logo.jpg');
+}
