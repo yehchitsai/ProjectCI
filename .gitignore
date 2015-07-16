@@ -8,3 +8,4 @@ application/config/database.php
 upload/*
 .htaccess~
 database/testAccount.txt
+database/*
